@@ -1,0 +1,102 @@
+{
+  "resources": [
+    {
+      "name": "finding-aids",
+      "type": "table",
+      "path": "finding-aids.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:127b34c400cf15ea8b705958ca675e8ad6efbb3c802a71e919d936a24527cc39",
+      "bytes": 110258,
+      "fields": 1,
+      "rows": 2337,
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "finding-aids-totals",
+      "type": "table",
+      "path": "finding-aids-totals.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:02fe396c29b762487a1e660436d3bfa0bd27c07eca6ec671b7aed7b4c08d2b83",
+      "bytes": 803896,
+      "fields": 15,
+      "rows": 2337,
+      "schema": {
+        "fields": [
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "collection_number",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "creator",
+            "type": "string"
+          },
+          {
+            "name": "date_range",
+            "type": "string"
+          },
+          {
+            "name": "extent",
+            "type": "string"
+          },
+          {
+            "name": "language_of_materials",
+            "type": "string"
+          },
+          {
+            "name": "repository",
+            "type": "string"
+          },
+          {
+            "name": "sponsor",
+            "type": "string"
+          },
+          {
+            "name": "abstract",
+            "type": "any"
+          },
+          {
+            "name": "physical_description",
+            "type": "string"
+          },
+          {
+            "name": "total_elements",
+            "type": "integer"
+          },
+          {
+            "name": "total_items",
+            "type": "integer"
+          },
+          {
+            "name": "total_digitised_items",
+            "type": "integer"
+          },
+          {
+            "name": "total_searchable",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
